@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top {
+  height: 34px;
+  width: calc(100vw - 10px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.top1 {
+  width: 154px;
+  height: 28px;
+  top: 1px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.top2 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  width: 154px;
+  height: 28px;
+}
+.zurag {
+  background: url("./cart-simple.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 20px;
+  height: 19px;
+  border: 2px;
+  margin-right: 20px;
+}
+.big-pick {
+  height: 100vh;
+  width: calc(100vw - 30px);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.big1 {
+  color: #f4f7fa;
+  padding-top: 150px;
+  text-align: center;
+  display: flex;
+  position: absolute;
+  margin-top: 200px;
+  font-family: 700;
+  font-size: 13px;
+  letter-spacing: 1.63px;
+  line-height: 14.95px;
+}
+.big2 {
+  color: white;
+  font-size: 60px;
+  padding-top: 30px;
+  text-align: center;
+  display: flex;
+  position: absolute;
+  margin-top: 400px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: -2px;
+  text-align: center;
+}
+.bg {
+  background: url("./behzad-ghaffarian-nhWgZNV85LQ-unsplash.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  opacity: 70%;
+  border-radius: 10px;
+}
+.bgc {
+  height: 100%;
+  width: 100%;
+  background-color: #0a0d17;
+  border-radius: 10px;
+}
+.mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 840px;
+  width: 1110px;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 30px;
+  top: -160px;
+  position: absolute;
+}
+.box {
+  height: 406px;
+  width: 350px;
+  border-radius: 10px;
+  background-color: #f4f7fa;
+  background-repeat: no-repeat;
+  back
+}
+.neg-1 {
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.neg-2 {
+  color: grey;
+  margin: 30px;
+}
+.img {
+    width: 157px;
+    height: 204px;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.img1{background-image: url("./Sofa.png");
+
+}
+.img2{
+    background-image: url("./table.png");
+}
+.img3{
+    background-image:url("./Bitmap.png");
+}
+.img4{
+    background-image: url("./Bitmap\ \(1\).png");
+}
+.img5{
+    background-image: url("./Bitmap\ \(2\).png");
+}
+.img6{
+    background-image: url("./Bitmap\ \(3\).png");
+}
+
+.p{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 720px;
+}
+.blue{
+    height: 770px;
+    width: 1570px;
+    background-color:#473BF0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
+}
+.blue1{
+    background-image: url("./jean-philippe-delberghe-Ba2mCCtXG2o-unsplash.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 482px;
+    width: 401px;
+    margin-left: 230px;
+    border-radius: 10px;
+}
+.blue2-1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -1.2px;
+}
+.blue2-2{
+    width: 400px;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color:gray;
+}
+.blue2-3{
+    width: 142px;
+    height: 32px;
+    color: white;
+}
+.blue2{
+    margin-right: 230px;
+}
+
