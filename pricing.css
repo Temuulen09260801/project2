@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top {
+  height: 34px;
+  width: calc(100vw - 10px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.top1 {
+  width: 154px;
+  height: 28px;
+  top: 1px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.top2 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  width: 154px;
+  height: 28px;
+}
+.zurag {
+  background: url("./cart-simple.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 20px;
+  height: 19px;
+  border: 2px;
+  margin-right: 20px;
+}
+.top2 a {
+  color: #0a0d17;
+}
+.box1 {
+  width: 100%;
+  height: 202px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+  gap: 49px;
+  padding-top: 50px;
+}
+.box {
+  width: 100%;
+  height: 1366px;
+  left: 0.5px;
+  padding: 0px 0.5px 0px 0.5px;
+  background-color: #f4f7fa;
+}
+.box1-1 {
+  color: #161c2d;
+  font-family: Arial;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: -2px;
+  text-align: center;
+}
+.box1-2 {
+  color: #161c2d;
+  font-family: Arial;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: center;
+  opacity: 70%;
+}
+.box2 {
+  width: 100%;
+  height: 122px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 61px;
+}
+.box2-1-1 {
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+.box5-1-1 {
+  background-image: url("./Icon@2x.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  margin-top: 6px;
+}
+.box2-1 {
+  width: 319px;
+  height: 118px;
+  display: flex;
+  flex-direction: column;
+}
+.box2-1-2 {
+  display: flex;
+  flex-direction: column;
+}
+.box2-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.box6-1-1 {
+  background-image: url("./Icon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  margin-top: 6px;
+}
+.box7-1-1 {
+  background-image: url("./Icon\ \(1\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  margin-top: 6px;
+}
+.box2-1-2-1 {
+  color: #161c2d;
+  font-family: Arial;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  opacity: 70%;
+}
